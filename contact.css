@@ -1,0 +1,46 @@
+#contact{
+	background-image: url("homeimage/back.jpg");
+    	color:black;
+    	padding:10px; 
+	width: 680px;
+	height:450px;
+	font-family:Trebuchet MS;
+	margin:auto;
+	text-align:center;
+}
+.input{
+	width: 50%;
+	height:30px;
+	padding: 12px 20px;
+    	box-sizing: border-box;	
+	border: 2px;
+	outline: none;
+	
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+    	background-color: solid #555;
+    	border: none;
+	border-radius: 4px;
+   	color :#000000;
+    	padding: 16px 32px;
+    	text-decoration: none;
+    	margin: 4px 2px;
+    	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	width:160px;
+	height:50px;
+	font-family:Trebuchet MS;
+	align:middle;
+	
+}
+input[type=submit]:hover {
+    	background-color:#000000;
+	color :	#FFFFFF;
+}
+
+
